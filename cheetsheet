@@ -1,0 +1,5 @@
+Entity: An entity is a 'thing' or 'object' in the real world tht is distingusable from all others object
+An entity has a set of properties and values for some set of properties that may uniquely identify an entity
+
+Attributes: An entity is represented by a set of attributes, Attributes are descriptive properties possessed  by
+each member of an entity set
