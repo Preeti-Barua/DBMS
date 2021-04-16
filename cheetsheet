@@ -3,3 +3,27 @@ An entity has a set of properties and values for some set of properties that may
 
 Attributes: An entity is represented by a set of attributes, Attributes are descriptive properties possessed  by
 each member of an entity set
+
+
+
+Transaction
+The transaction is a set of logically related operation. It contains a group of tasks.
+A transaction is an action or series of actions. It is performed by a single user to perform operations for accessing the contents of the database.
+Example: Suppose an employee of bank transfers Rs 800 from X's account to Y's account. This small transaction contains several low-level tasks:
+
+
+X's Account
+Open_Account(X)  
+Old_Balance = X.balance  
+New_Balance = Old_Balance - 800  
+X.balance = New_Balance  
+Close_Account(X)  
+
+Y's Account
+Open_Account(Y)  
+Old_Balance = Y.balance  
+New_Balance = Old_Balance + 800  
+Y.balance = New_Balance  
+Close_Account(Y) 
+
+
